@@ -1,19 +1,18 @@
 # Hi, I'm Adarsh Upase  
 
 **B.Tech in Computer Science, PES University**  
-I’m passionate about systems, machine learning, and large language models (LLMs).  
-My interests span from operating system internals to applied AI and backend development.
+I’m passionate about Languages, Compilers,Machine learning,Operating Systems and large language models.  
 
 ---
 
 ## My Projects  
 
-*I have worked on projects in various domains — from core operating system concepts to applied machine learning and system design.*
+*I have worked on projects in various domains — from core low level c programs to applied machine learning and system design.*
 
 ---
 
 ### [Website Domain Predictor](https://github.com/Adarshupase/TLD-Predictor)
-**Tech Stack:** Python, Flask, TF-IDF, Logistic Regression  
+**Tech Stack:** Flask,ReactJS
 **Live Demo:** [TLD-Predictor](https://tld-predictor-1.onrender.com)
 
 A web application that predicts the top-level domain (TLD) of a website given its basename and optionally its category.  
@@ -27,12 +26,12 @@ It also includes an interactive guessing game for users to test their intuition 
 ---
 
 ### [Online Food Delivery System (Spring Boot)](https://github.com/Adarshupase/food-delivery-app)
-**Tech Stack:** Java, Spring Boot, MySQL, HTML/CSS
+**Tech Stack:** Java, Spring Boot,MYSQL
 
 A full-stack food delivery system that demonstrates the practical use of multiple design patterns for scalability and maintainability.
 
 **Concepts and Patterns Used**
-- Abstract Factory: To provide dynamic discounts to customers.
+- Abstract Factory: To provide dynamic customized discounts to customers.
 - Decorator Pattern: For managing different kinds of menu items.
 - Strategy Pattern: To switch between different recommendation algorithms dynamically.
 
@@ -41,7 +40,7 @@ This project deepened my understanding of architectural tradeoffs and design pat
 ---
 
 ### [Dynamic File System](https://github.com/Adarshupase/dynamic-file-system)
-**Tech Stack:** C, FUSE, Linux
+**Tech Stack:** C, Linux
 
 A minimal custom file system developed to explore the internal workings of operating systems and file management.
 
@@ -53,18 +52,20 @@ A minimal custom file system developed to explore the internal workings of opera
 ---
 
 ## Interests
-- System Architecture and Distributed Systems  
-- Machine Learning and LLM Fine-tuning  
-- Compiler Design and Operating Systems  
+- backend developement,Compilers,Machine learning and various Open Source Projects 
+- LLM Fine-tuning  
+- Compiler Design and Operating Systems
 - Backend and Full-stack Development  
 
 ---
 
 ## Connect with Me
 - **GitHub:** [github.com/Adarshupase](https://github.com/Adarshupase)  
-- **LinkedIn:** [linkedin.com/in/adarshupase](https://linkedin.com/in/adarshupase)  
+- **LinkedIn:** [linkedin.com/in/adarshupase](https://www.linkedin.com/in/adarsh-upase-873587297)  
 - **Portfolio:** [adarshupase.github.io](https://adarshupase.github.io)
 
 ---
-
-*“Code should be simple, meaningful, and maintainable.”*
+## Languages I know
+- **C++**
+- **Python**
+- **Java**
