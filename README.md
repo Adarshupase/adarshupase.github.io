@@ -1,6 +1,6 @@
 # Hi, I'm Adarsh Upase  
 
-**B.Tech in Computer Science, PES University**  
+**B.Tech in Computer Science, PES University**    
 I’m passionate about programming.  
 
 ---
@@ -8,7 +8,7 @@ I’m passionate about programming.
 ## My Projects  
 
 ### [Website Domain Predictor](https://github.com/Adarshupase/TLD-Predictor)
-**Tech Stack:** Flask,ReactJS
+**Tech Stack:** Flask,ReactJS  
 **Live Demo:** [TLD-Predictor](https://tld-predictor-1.onrender.com)
 
 A web application that predicts the top-level domain (TLD) of a website given its basename and optionally its category.  
@@ -61,8 +61,14 @@ A minimal custom file system developed to explore the internal workings of opera
 - **Portfolio:** [adarshupase.github.io](https://adarshupase.github.io)
 
 ---
+
 ## Languages I know
 - **C++**
 - **Python**
 - **Java**
-*An idiot admires complexity a genius admires simplicity*
+
+---
+
+### Quote
+*“An idiot admires complexity, a genius admires simplicity, a physicist tries to make it simple, for an idiot anything the more complicated it is the more he will admire it, if you make something so complex he can't understand it he's gonna think you're a god cause you made it so complicated nobody can understand it.”* — **Terry A. Davis**
+https://www.youtube.com/watch?v=2kGRYyectoE
