@@ -1,15 +1,11 @@
 # Hi, I'm Adarsh Upase  
 
 **B.Tech in Computer Science, PES University**  
-I’m passionate about Languages, Compilers,Machine learning,Operating Systems and large language models.  
+I’m passionate about programming.  
 
 ---
 
 ## My Projects  
-
-*I have worked on projects in various domains — from core low level c programs to applied machine learning and system design.*
-
----
 
 ### [Website Domain Predictor](https://github.com/Adarshupase/TLD-Predictor)
 **Tech Stack:** Flask,ReactJS
@@ -69,3 +65,4 @@ A minimal custom file system developed to explore the internal workings of opera
 - **C++**
 - **Python**
 - **Java**
+*An idiot admires complexity a genius admires simplicity*
