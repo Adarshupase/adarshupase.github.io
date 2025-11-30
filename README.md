@@ -56,7 +56,7 @@ A header only library for vectors in c++ supporting vector operations similar to
 ---
 
 ## Experience  
-### CCBDand CDSAML, PES University (Jun-Aug 2025) 
+### CCBD and CDSAML, PES University (Jun-Aug 2025) 
 - Fine-tuned a lightweight large language model (Mistral-7B) to translate natural-language queries into Elasticsearch DSL using Low Rank Adoption.
 - Improved model accuracy to 71% (a 53% improvement over the base model) by fine-tuning Mistral-7B with LoRA on a custom dataset of 4,000 samples.
 
