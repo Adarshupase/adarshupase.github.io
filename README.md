@@ -5,7 +5,7 @@ I’m passionate about programming.
 
 ---
 
-## My Projects  
+## Projects  
 
 ### [Website Domain Predictor](https://github.com/Adarshupase/TLD-Predictor)
 **Tech Stack:** Flask,ReactJS  
@@ -46,23 +46,38 @@ A minimal custom file system developed to explore the internal workings of opera
 - Provides insight into how modern file systems handle space efficiency.
 
 ---
+### [Vec - A header only library for vectors](https://github.com/Adarshupase/Vec)
+**Language:** C++
+A header only library for vectors in c++ supporting vector operations similar to python lists
+- Negative Indexing 
+- slicing the vector
+- support for multidimensional vectors
+
+---
+
+## Experience  
+### CCBDand CDSAML, PES University (Jun-Aug 2025) 
+- Fine-tuned a lightweight large language model (Mistral-7B) to translate natural-language queries into Elasticsearch DSL using Low Rank Adoption.
+- Improved model accuracy to 71% (a 53% improvement over the base model) by fine-tuning Mistral-7B with LoRA on a custom dataset of 4,000 samples.
+
+---
+ 
 
 ## Interests
-- backend developement,Compilers,Machine learning and various Open Source Projects 
-- LLM Fine-tuning  
-- Compiler Design and Operating Systems
-- Backend and Full-stack Development  
-
+- backend developement,Recreational Programming, Machine learning and various Open Source Projects 
+- LLM's
+- Databases, File Systems and Operating Systems
 ---
 
 ## Connect with Me
 - **GitHub:** [github.com/Adarshupase](https://github.com/Adarshupase)  
-- **LinkedIn:** [linkedin.com/in/adarshupase](https://www.linkedin.com/in/adarsh-upase-873587297)  
-- **Portfolio:** [adarshupase.github.io](https://adarshupase.github.io)
+- **LinkedIn:** [linkedin.com/in/adarshupase](https://www.linkedin.com/in/adarsh-upase-873587297)
+- **YouTube:** [youtube.com/@adarshupase01](https://www.youtube.com/@adarshupase01) 
 
 ---
 
 ## Languages I know
+- **C**
 - **C++**
 - **Python**
 - **Java**
@@ -70,5 +85,5 @@ A minimal custom file system developed to explore the internal workings of opera
 ---
 
 ### Quote
-*“An idiot admires complexity, a genius admires simplicity, a physicist tries to make it simple, for an idiot anything the more complicated it is the more he will admire it, if you make something so complex he can't understand it he's gonna think you're a god cause you made it so complicated nobody can understand it.”* — **Terry A. Davis**
-https://www.youtube.com/watch?v=2kGRYyectoE
+*“An idiot admires complexity, a genius admires simplicity.”* — **Terry A. Davis**
+##[Quote](https://youtu.be/k0qmkQGqpM8?si=RJWr9l3IPuBjc6HA)
