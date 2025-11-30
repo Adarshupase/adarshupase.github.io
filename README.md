@@ -64,9 +64,7 @@ A header only library for vectors in c++ supporting vector operations similar to
  
 
 ## Interests
-- backend developement,Recreational Programming, Machine learning and various Open Source Projects 
-- LLM's
-- Databases, File Systems and Operating Systems
+- backend developement, Databases, Machine learning and Programming in general.
 ---
 
 ## Connect with Me
@@ -77,10 +75,7 @@ A header only library for vectors in c++ supporting vector operations similar to
 ---
 
 ## Languages I know
-- **C**
-- **C++**
-- **Python**
-- **Java**
+- **C, C++, Python, Java**
 
 ---
 
