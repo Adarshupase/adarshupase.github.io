@@ -1,7 +1,7 @@
 # Hi, I'm Adarsh Upase  
 
 **B.Tech in Computer Science, PES University**    
-I’m passionate about programming.  
+currently working on CoRe (a code refactoring engine) 
 
 ---
 
