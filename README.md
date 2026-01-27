@@ -1,7 +1,7 @@
 # Hi, I'm Adarsh Upase  
 
 **B.Tech in Computer Science, PES University**    
-currently working on CoRe (a code refactoring engine) 
+currently working on *[core](https://github.com/Adarshupase/core)*
 
 ---
 
