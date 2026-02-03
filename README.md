@@ -1,4 +1,4 @@
-# Hi, I'm Adarsh Upase  
+# Hi, I'm Adarsh Upase
 
 **B.Tech in Computer Science, PES University**    
 currently working on *[core](https://github.com/Adarshupase/core)*
@@ -7,7 +7,8 @@ currently working on *[core](https://github.com/Adarshupase/core)*
 
 ## Projects  
 
-### [Website Domain Predictor](https://github.com/Adarshupase/TLD-Predictor)
+### Website Domain Predictor
+**github:** [link](https://github.com/Adarshupase/TLD-Predictor)
 **Tech Stack:** Flask,ReactJS  
 **Live Demo:** [TLD-Predictor](https://tld-predictor-1.onrender.com)
 
@@ -21,7 +22,8 @@ It also includes an interactive guessing game for users to test their intuition 
 
 ---
 
-### [Online Food Delivery System (Spring Boot)](https://github.com/Adarshupase/food-delivery-app)
+### Online Food Delivery System (Spring Boot)
+**github:** [link](https://github.com/Adarshupase/food-delivery-app)
 **Tech Stack:** Java, Spring Boot,MYSQL
 
 A full-stack food delivery system that demonstrates the practical use of multiple design patterns for scalability and maintainability.
@@ -35,7 +37,8 @@ This project deepened my understanding of architectural tradeoffs and design pat
 
 ---
 
-### [Dynamic File System](https://github.com/Adarshupase/dynamic-file-system)
+### Dynamic File System
+**github:** [link](https://github.com/Adarshupase/dynamic-file-system)
 **Tech Stack:** C, Linux
 
 A minimal custom file system developed to explore the internal workings of operating systems and file management.
@@ -46,7 +49,8 @@ A minimal custom file system developed to explore the internal workings of opera
 - Provides insight into how modern file systems handle space efficiency.
 
 ---
-### [Vec - A header only library for vectors](https://github.com/Adarshupase/Vec)
+### Vec - A header only library for vectors
+**github:** [link](https://github.com/Adarshupase/Vec)
 **Language:** C++
 A header only library for vectors in c++ supporting vector operations similar to python lists
 - Negative Indexing 
