@@ -83,9 +83,3 @@ A header only library for vectors in c++ supporting vector operations similar to
 
 ---
 
-###  Some Quotes
-*“An idiot admires complexity, a genius admires simplicity.”* — **Terry A. Davis**
----
-*"Trying to solve the problem you don't have, you are bound to introduce them"*
----
-
