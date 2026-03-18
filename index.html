@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adarsh | Portfolio</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111827;
+      --accent: #22c55e;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: system-ui, -apple-system, sans-serif; }
+
+    body { background: var(--bg); color: var(--text); line-height: 1.6; }
+
+    header { padding: 2rem; text-align: center; border-bottom: 1px solid #1f2937; }
+    header h1 { font-size: 2.5rem; }
+    header p { color: var(--muted); margin-top: 0.5rem; }
+
+    nav { margin-top: 1rem; }
+    nav a { margin: 0 1rem; color: var(--muted); text-decoration: none; }
+    nav a:hover { color: var(--accent); }
+
+    .container { max-width: 900px; margin: auto; padding: 2rem; }
+    section { margin-bottom: 3rem; }
+    h2 { margin-bottom: 1rem; color: var(--accent); }
+
+    .card { background: var(--card); padding: 1rem; border-radius: 12px; margin-bottom: 1rem; }
+
+    footer { text-align: center; padding: 2rem; border-top: 1px solid #1f2937; color: var(--muted); }
+
+    .typewriter { border-right: 2px solid var(--accent); white-space: nowrap; overflow: hidden; }
+
+    pre { background: #020617; padding: 1rem; border-radius: 8px; overflow-x: auto; }
+    code { color: #22c55e; }
+
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Adarsh Upase</h1>
+    <p><span id="typing" class="typewriter"></span></p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#posts">Posts</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <div id="home">
+      <section>
+        <h2>About</h2>
+        <div class="card">
+          <p>I build low-level systems and distributed stuff.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+        <div class="card"><h3>Distributed System</h3></div>
+        <div class="card"><h3>FUSE FS</h3></div>
+      </section>
+    </div>
+
+    <div id="posts" class="hidden">
+      <section>
+        <h2>Posts</h2>
+        <div id="post-list"></div>
+      </section>
+    </div>
+
+    <div id="post-view" class="hidden">
+      <section>
+        <a href="#posts">← back</a>
+        <div id="post-content" class="card"></div>
+      </section>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Adarsh</p>
+  </footer>
+
+  <script>
+    // -------- TYPEWRITER --------
+    const text = ["Systems Programmer","Distributed Systems","Linux"];
+    let i = 0, j = 0, isDeleting = false;
+    function type() {
+      const current = text[i];
+      document.getElementById("typing").textContent = current.substring(0, j);
+      if (!isDeleting && j < current.length) j++;
+      else if (isDeleting && j > 0) j--;
+      else { isDeleting = !isDeleting; if (!isDeleting) i = (i+1)%text.length; }
+      setTimeout(type, isDeleting ? 50 : 100);
+    }
+    type();
+
+    // -------- ROUTER --------
+    function show(id) {
+      document.getElementById("home").classList.add("hidden");
+      document.getElementById("posts").classList.add("hidden");
+      document.getElementById("post-view").classList.add("hidden");
+      document.getElementById(id).classList.remove("hidden");
+    }
+
+    window.addEventListener("hashchange", router);
+    function router() {
+      const hash = location.hash;
+      if (hash.startsWith("#post/")) {
+        const file = hash.replace("#post/", "");
+        loadPost(file);
+      } else if (hash === "#posts") {
+        show("posts");
+      } else {
+        show("home");
+      }
+    }
+
+    // -------- LOAD POSTS LIST --------
+    const posts = [
+      { title: "My First Post", file: "post1.md" },
+      { title: "Cool Systems Stuff", file: "post2.md" }
+    ];
+
+    const list = document.getElementById("post-list");
+    posts.forEach(p => {
+      const div = document.createElement("div");
+      div.className = "card";
+      div.innerHTML = `<a href="#post/${p.file}">${p.title}</a>`;
+      list.appendChild(div);
+    });
+
+    // -------- MARKDOWN PARSER (simple) --------
+    function mdToHtml(md) {
+      return md
+        .replace(/^### (.*$)/gim, '<h3>$1</h3>')
+        .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+        .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+        .replace(/\*\*(.*)\*\*/gim, '<b>$1</b>')
+        .replace(/\*(.*)\*/gim, '<i>$1</i>')
+        .replace(/```([\s\S]*?)```/gim, '<pre><code>$1</code></pre>')
+        .replace(/\n$/gim, '<br>');
+    }
+
+    // -------- LOAD SINGLE POST --------
+    function loadPost(file) {
+      fetch(`pages/${file}`)
+        .then(res => res.text())
+        .then(md => {
+          document.getElementById("post-content").innerHTML = mdToHtml(md);
+          show("post-view");
+        });
+    }
+
+    router();
+  </script>
+</body>
+</html>
+
